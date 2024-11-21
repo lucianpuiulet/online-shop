@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <h1>Comanda acum de minim 499.99 RON si beneficiezi de transport gratuit!</h1>
+        <h1>Bine ai venit pe site-ul meu de electrocasnice!</h1>
     </header>
         <nav class="navbar">
             <div class="logo">
@@ -21,17 +21,58 @@
             </div>
             <div class="search">
                 <input type="text" class="search-text" placeholder="Începe o nouă căutare">
+                <!-- Clear button -->
                 <button class="clear-button" type="reset">
-                    <i class="fa fa-times" aria-hidden="true"></i>
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="false" xmlns="http://www.w3.org/2000/svg" width="28" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                    </svg>
                 </button>
+                <!-- Search button -->
                 <button class="search-button">
-                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <svg class="w-[30px] h-[30px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+                      </svg>
+                      
                 </button>
             </div>
             <ul class="navigation-menu">
-                <li class="my-account"><a href="my-account.html">Contul meu</a></li>
-                <li class="favorite-products"><a href="favorite-products.html">Favorite</a></li>
-                <li class="shopping-cart"><a href="shopping-cart.html">Cosul meu</a></li>
+                <!-- Shopping cart -->
+                <li class="shopping-cart">
+                    <div class="cart-products">
+                        <svg class="w-[24px] h-[24px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                        </svg>
+                        <a href="shopping-cart.html">Cosul meu</a>
+                    </div>
+                   
+                </li>
+                <!-- Favourite products -->
+                <li class="favourite-products">
+                    <a href="favourite-products.html">
+                        <div class="favourite-products">
+                            <svg class="w-[24px] h-[24px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
+                              </svg>
+                              Favorite  
+                        </div>
+                    </a>
+                </li>
+                <!-- My account -->
+                <li class="my-account">
+                    <a href="my-account.html">
+                        <div class="my-account">
+                            <svg class="w-[24px] h-[24px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-width="2" d="M7 17v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3Zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                              </svg>
+                              Contul meu  
+                        </div>
+                    </a>
+                </li>
+
+
+
+
+                
             </ul>
         </nav>
     <!--Product filter section-->    
@@ -51,25 +92,25 @@
                     <td>
                         <img src="/images/iphone15pro.jpg" alt="" class="product-img"><br/>
                         <a href="15pm.html" target="_blank">iPhone 15 Pro</a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <span class="product-price">5560 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                     <td>
                         <img src="/images/macbook-air-m1.jpg" alt="" class="product-img"><br/>
                         <a href="macbook-air-m1-2020.html">MacBook Air M1</a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <span class="product-price">4051 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                     <td>
                         <img src="/images/tv-philips-4k.jpg" alt="" class="product-img"><br/>
                         <a href="tv-philips-4k">Televizor Philips 4K </a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <span class="product-price">1499 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                     <td>
                         <img src="/images/16promax.jpg" alt="" class="product-img"><br/>
                         <a href="16-pro-max.html">Iphone 16 Pro Max</a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <span class="product-price">7199 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                 </tr>
@@ -78,25 +119,25 @@
                     <td>
                         <img src="/images/14promax.jpg" alt="" class="product-img"><br/>
                         <a href="14-pro-max.html">iPhone 14 Pro Max</a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <span class="product-price">6265 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                     <td>
                         <img src="/images/13pro.jpg" alt="" class="product-img"><br/>
                         <a href="13pro.html">iPhone 13 Pro</a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <span class="product-price">5652 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                     <td>
                         <img src="/images/apple-tv-4k.jpg" alt="" class="product-img"><br/>
                         <a href="apple-tv-4k.html">Apple TV 4K</a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <span class="product-price">1099 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                     <td>
                         <img src="/images/macbook-pro-m1-2020-13.jpg" alt=""  class="product-img"><br/>
                         <a href="pro-m1-2020.html">MacBook Pro M1</a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <span class="product-price">4899 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                 </tr>
@@ -104,26 +145,26 @@
                 <tr>
                     <td>
                         <img src="/images/macbook-pro-m2-max-16.jpg" alt="" class="product-img"><br/><br/>
-                        <a href="pro-m2-max-16.html">MacBook Pro M2 Max 2022 16"</a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <a href="pro-m2-max-16.html">MacBook Pro M2 <br/>Max 2022 16"</a><br/>
+                        <span class="product-price">12999 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                     <td>
                         <img src="/images/tv-samsung-4k-43au.jpg" alt="" class="product-img"><br/>
-                        <a href="tv-samsung-4k-43au.html">Televizor Samsung 108cm Smart 4K</a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <a href="tv-samsung-4k-43au.html">Televizor Samsung<br/> 108cm Smart 4K</a><br/>
+                        <span class="product-price">1299 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                     <td>
                         <img src="/images/iph12.jpg" alt="" class="product-img"><br/>
-                        <a href="iphone-12.html">iPhone 12 128GB Green</a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <a href="iphone-12.html">iPhone 12 <br/>128GB Green</a><br/>
+                        <span class="product-price">2299 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                     <td>
                         <img src="/images/tv-lg-4k.jpg" alt="" class="product-img"><br/>
-                        <a href="tv-lg-4k.html">Televizor LG 108cm Smart 4K</a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <a href="tv-lg-4k.html">Televizor LG 108cm<br/> Smart 4K</a><br/>
+                        <span class="product-price">1599 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                 </tr>
@@ -132,25 +173,25 @@
                     <td>
                         <img src="/images/MacPro2023.jpg" alt="" class="product-img"><br/>
                         <a href="mac-pro-2023.html">Mac Pro 2023</a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <span class="product-price">14570 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                     <td>
                         <img src="/images/apple-tv-4k-2022.jpg" alt="" class="product-img"><br/>
                         <a href="apple-tv-4k-2022.html"> Apple TV 4K 2022</a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <span class="product-price">976 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                     <td>
                         <img src="/images/macbook-pro-m3-16.jpg" alt="" class="product-img"><br/>
                         <a href="pro-m3-16.html">MacBook Pro M3</a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <span class="product-price">12899 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                     <td>
                         <img src="/images/iphone-11.jpg" alt="" class="product-img"><br/>
                         <a href="iphone-11.html">iPhone 11 128GB</a><br/>
-                        <span class="product-price">6700 Lei</span>
+                        <span class="product-price">1989 Lei</span>
                         <button class="add-to-cart-btn">Adauga!</button>
                     </td>
                 </tr>

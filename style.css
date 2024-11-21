@@ -13,7 +13,8 @@ body{
 }
 /* General styles */
 h1{
-    text-align: left;
+    color: #40a143;
+    text-align: center;
     font-size: 30px;
 }
 .page-container{
@@ -35,15 +36,15 @@ h1{
     float: right;
 }
 .navigation-menu li{
-    float: right;
+    float: right;    
 }
 .navigation-menu a{
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 30px;
+    padding: 14px 5px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
   }
   .navigation-menu li a:hover{
     background-color: #3637953c;
@@ -72,26 +73,26 @@ h1{
     /* 100px for SO Snippet only */
 }
 .clear-button{
-    border: solid 1px #fff;
-    border-radius: 35px;
     float: left;
     font-size: 30px;
-    margin-top: 14px;
+    margin-top: 17px;
     margin-left: -70px;
 }
+.cart-products{
+    font-size: 24px;
+    text-align: center;
+}
 .search-button{
-    border: solid 2px #fff;
-    border-radius: 35px;
     float: left;
     font-size: 30px;
-    margin-top: 14px;
-    margin-left: -44px;
+    margin-top: 17px;
+    margin-left: -39px;
 }
 .clear-button:hover{
-    background-color:#36379565 ;
+    background-color:#5355d39b ;
 }
 .search-button:hover{
-    background-color:#36379565 ;
+    background-color:#5355d39b ;
 }
 
 /*Products section*/
